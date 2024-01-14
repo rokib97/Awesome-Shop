@@ -1,5 +1,178 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@400;500;600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
 body {
   font-family: "Poppins", sans-serif;
+}
+
+/* navbar style start here */
+.header {
+  background-color: #9376e0;
+}
+.header-section {
+  max-width: 1250px;
+  /* background-color: red; */
+  margin: 0 auto;
+  /* border: 2px solid blue; */
+  display: flex;
+}
+.nav-container {
+  /* border: 2px solid red; */
+  min-height: 40px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  width: 50%;
+}
+.nav-container img {
+  width: 90px;
+  object-fit: cover;
+}
+.nav-container p {
+  font-size: 25px;
+}
+.special {
+  color: #e893cf;
+  font-weight: 900;
+}
+.items-container {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.items-container a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+.login-button {
+  padding: 10px 20px;
+  background-color: #e893cf;
+  border-radius: 5px;
+}
+.items-container .login-button a {
+  /* padding: 10px 20px; */
+
+  /* border-radius: 5px; */
+  color: black;
+}
+
+/* banner section styles  */
+.banner-section {
+  max-width: 1250px;
+  margin: 0 auto;
+  /* background-color: red; */
+  /* border: 2px solid blue; */
+  min-height: 400px;
+  display: flex;
+  background-color: #e6e9eb;
+  margin-top: 30px;
+  border-radius: 10px;
+  padding: 20px;
+}
+.text-container {
+  /* border: 2px solid green; */
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.banner-image-container {
+  /* border: 2px solid violet; */
+  width: 50%;
+  position: relative;
+}
+.banner-image-container img {
+  width: 100%;
+  display: block;
+  height: 100%;
+  margin: 0 auto;
+  object-fit: cover;
+  border-radius: 10px;
+}
+/* .text-container h1,
+p,
+span {
+  font-size: 45px;
+} */
+.banner-heading {
+  background: linear-gradient(45deg, #e893cf, #9376e0);
+  background-clip: text;
+  color: transparent;
+  font-size: 60px;
+}
+#collections {
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
+}
+.fa-brands {
+  font-size: 45px;
+}
+.icons {
+  display: flex;
+  gap: 15px;
+}
+.common-button {
+  padding: 10px 20px;
+  /* color: white; */
+  /* border: 2px solid #e893cf; */
+  border-radius: 5px;
+}
+.discount {
+  width: 90px;
+  height: 90px;
+  background-color: rgb(128, 128, 16);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 70%;
+  left: 69%;
+}
+
+/* products styles  */
+.product-section {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+.grid-container {
+  /* min-width: 400px; */
+  /* border: 2px solid red; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+.single-product {
+  /* order: 2px solid blue; */
+
+  padding: 15px;
+  background-color: #e6e9eb;
+  border-radius: 5px;
+}
+.single-product img {
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+}
+.heading-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icon {
+  background-color: #e893cf;
+
+  font-size: 20px;
+  border-radius: 50%;
+  padding: 10px;
 }
