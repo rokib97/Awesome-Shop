@@ -39,6 +39,7 @@ body {
 .special {
   color: #e893cf;
   font-weight: 900;
+  font-size: 45px;
 }
 .items-container {
   width: 50%;
