@@ -194,6 +194,8 @@ span {
 }
 .single-gallery img {
   width: 70%;
+  display: block;
+  height: 100%;
   margin: 0 auto;
 }
 .single-gallery {
