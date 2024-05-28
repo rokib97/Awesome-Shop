@@ -105,7 +105,7 @@ span {
   font-size: 45px;
 } */
 .banner-heading {
-  background: linear-gradient(45deg, #e893cf, #9376e0);
+  background: linear-gradient(90deg, #e893cf, #9376e0);
   background-clip: text;
   color: transparent;
   font-size: 60px;
